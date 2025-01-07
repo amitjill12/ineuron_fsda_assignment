@@ -1,0 +1,31 @@
+1)In Excel, the dollar sign ($) is used to create absolute cell references. It allows you to lock a specific row, column, or both in a formula so that when you copy or move the formula to another cell, the reference does not change.
+
+2)Select the cell that contains the formula
+Select the reference you want to change in the formula bar
+Press F4 to switch between reference types
+
+3)Parentheses: Calculations within parentheses are evaluated first, from the innermost to the outermost
+Exponents: Exponents are evaluated next
+Multiplication and Division: These operations are evaluated from left to right
+Addition and Subtraction: These operations are evaluated from left to right
+
+4)These are the 5 basic Excel functions that everyone should know:
+The VLookup Function.
+The Concatenate Function.
+Text to Columns.
+Remove Duplicates.
+Pivot Tables.
+
+5)To use the subtotal function, you can: 
+Type =SUBTOTAL
+Select the function you want to use, such as 9 for sum or 1 for average
+Select the reference, which is your data
+Press enter
+The subtotal function can be used with other functions, like AVERAGE or COUNT, to find custom totals from a dataset
+
+6)The syntax for the VLOOKUP function in Excel is: 
+=VLOOKUP(lookup_value, lookup_range, column_number, [match])
+lookup_value: The value you want to look up
+lookup_range: The data range where you'll search for the lookup_value
+column_number: The number of the column in the lookup_range that contains the matching value to return
+match: An optional parameter to choose either closest or exact match
